@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
-    "start": "npm run build && node build/dev-server.js",
+    "start": "node build/dev-server.js",
     "build-semantic": "gulp --gulpfile semantic/gulpfile.js build",
     "build": "node build/build.js && npm run build-semantic",
     "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
