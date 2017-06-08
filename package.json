@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
-    "start": "node build/dev-server.js",
+    "start": "npm run build-semantic && node build/dev-server.js",
     "build-semantic": "gulp --gulpfile semantic/gulpfile.js build",
     "build": "npm run build-semantic && node build/build.js",
     "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
@@ -88,8 +88,8 @@
     "webpack-merge": "^4.1.0"
   },
   "engines": {
-    "node": ">= 4.0.0",
-    "npm": ">= 3.0.0"
+    "node": "= 6.11.0",
+    "npm": "= 3.10.10"
   },
   "browserslist": [
     "> 1%",
