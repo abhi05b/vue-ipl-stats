@@ -15,12 +15,13 @@
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs"
   },
   "dependencies": {
-    "jquery": "^3.2.1",
-    "vue": "^2.3.3",
-    "vue-router": "^2.3.1",
     "csv-parse": "^1.0.2",
     "csvtojson": "^0.5.3",
-    "gulp": "latest"
+    "express": "^4.15.3",
+    "gulp": "latest",
+    "jquery": "^3.2.1",
+    "vue": "^2.3.3",
+    "vue-router": "^2.3.1"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.2",
